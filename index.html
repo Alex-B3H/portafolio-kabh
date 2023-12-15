@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Karen Bejarano</title>
+    <title>Portafolio Karen Bejarano</title>
 
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header id="home">    
         <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link active" href="#proyectos">Proyectos</a>
+              <a class="nav-link active" href="proyectos/">Proyectos</a>
             </li>            
             <li class="nav-item">
               <a class="nav-link" href="#contacto">Contacto</a>
@@ -20,8 +21,15 @@
          </ul>
     <div class="contenedor">
         <div class="home__textos">
-            <h1 class="home__textos__title">Karen Bejarano</h1>
-            <div class="home__subtitle">
+            <h1 class="home__textos__title"
+                data-aos="fade-left" 
+                data-aos-easing="linear"               
+                data-aos-duration="500">
+            Karen Bejarano</h1>
+            <div class="home__subtitle"
+            data-aos="fade-right" 
+            data-aos-easing="linear"               
+            data-aos-duration="600">
                 <h2 class="home__textos__subtitle">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="24" height="30" viewBox="0 0 24 15" stroke-width="2.5" stroke="#CF8A40" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -35,9 +43,15 @@
             </div>
                 
         </div>
-        <img src="img/home1.png" alt="">
+        <img src="img/home1.png" alt="home" 
+            data-aos="fade-up" 
+            data-aos-easing="linear"               
+            data-aos-duration="550">
     </div>
-    <div class="home__contacto">
+    <div class="home__contacto"
+        data-aos="fade-up" 
+        data-aos-easing="linear"               
+        data-aos-duration="500">
         <a class="mx-4" target="_blank" href="https://wa.me/5587841419"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
@@ -67,7 +81,7 @@
         <section class="secciones seccion-dgrid">
            <div class="contenedor">
                 <div class="seccion__text about">
-                    <img src="img/header.png" alt="">
+                    <img src="img/header.png" alt="acerca_de_mi">
                 </div>
                 <p class="secciones__parrafos">
                     <span class="secciones__title">
@@ -78,8 +92,8 @@
                         Acerca de mi</span><br>
                     
                     Soy una persona persistente para cumplir con sus propósitos, egresada del Instituto Politécnico Nacional
-                    como <b>Ingeniera en Computación</b> y Técnico en <b>Diseño Gráfico</b>, 
-                    integre ambas carreras para hoy tener más de un año de <b>experiencia</b> en el <b>Desarrollo Web</b>, 
+                    como <strong>Ingeniera en Computación</strong> y Técnico en <strong>Diseño Gráfico</strong>, 
+                    integre ambas carreras para hoy tener más de un año de <strong>experiencia</strong> en el <strong>Desarrollo Web</strong>, 
                     trabajo en equipo, me considero ser líder, autodidacta, analítica, capaz de organizar y planificar el funcionamiento
                     de proyectos laborales y personales.
                 </p>
@@ -97,12 +111,13 @@
                        Habilidades técnicas
                     </h1>
                     <p class="secciones__parrafos">
-                        Manejo de <b>servidores</b> y su <b>configuración</b> para el depliegue de las aplicaciones desarrolladas con
-                        diferentes lenguajes y tecnologías de <b>programación</b>, manejo de herramientas para <b>maquetación</b>, 
-                        <b>diseño</b> y prototipos <b>web</b> con la paqueteria Adobe.
+                        Manejo de <strong>servidores</strong> y su <strong>configuración</strong> para el depliegue de las aplicaciones desarrolladas con
+                        diferentes lenguajes y tecnologías de <strong>programación</strong>, manejo de herramientas para <strong>maquetación</strong>, 
+                        <strong>diseño</strong> y prototipos <strong>web</strong> con la paqueteria Adobe.
                     </p> 
                  </div>
-                 <div class="contenedor__technic">
+                 <div class="contenedor__technic" data-aos="fade-up data-aos-easing="linear"
+                 data-aos-duration="600"">
                     <ul>
                         <li class="technic">HTML5</li>
                         <li class="technic">CSS</li>
@@ -149,7 +164,9 @@
             </h1>
             <div class="contenedor__proyectos">
                 
-                <div class="contenedor__proyecto">
+                <div class="contenedor__proyecto" 
+                data-aos="fade-up"                
+                data-aos-duration="800">
                     <div class="proyectos__imgs">
                         <img src="img/projects_01.png" alt="">
                         <!-- <div id="carousel1" class="carousel slide carousel-fade" data-ride="carousel">
@@ -191,7 +208,9 @@
                     </div>
                 </div>
                 <!-- contenedor__proyecto -->
-                <div class="contenedor__proyecto">
+                <div class="contenedor__proyecto"
+                data-aos="fade-up"                
+                data-aos-duration="1000">
                     <div class="proyectos__imgs">
                         <img src="img/projects_03.png" alt="">
                     </div>
@@ -210,9 +229,11 @@
                     </div>
                 </div>
 
-                <div class="contenedor__proyecto">
+                <div class="contenedor__proyecto"
+                data-aos="fade-up"                
+                data-aos-duration="1200">
                     <div class="proyectos__imgs">
-                        <img src="img/projects_07.png" alt="">
+                        <img src="img/projects_07a.png" alt="">
                     </div>
                     <div class="proyectos__info">
                         <h3>Aplicación Web</h3>
@@ -232,6 +253,17 @@
                 <!-- contenedor__proyecto -->
 
             </div> <!-- contenedor__proyectos -->
+            <div class="text-center mt-5">
+                <a class="proyectos__btn" href="proyectos/">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code-circle" width="30" height="30" viewBox="0 0 24 25" stroke-width="1.5" stroke="#0B1957" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M10 14l-2 -2l2 -2" />
+                        <path d="M14 10l2 2l-2 2" />
+                        <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                      </svg>
+                      Ver más proyectos
+                </a>    
+            </div>
         </div>
         </section>
         
@@ -290,7 +322,14 @@
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/btn-top.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            once: true
+        });
+      </script>
 </body>
 </html>
